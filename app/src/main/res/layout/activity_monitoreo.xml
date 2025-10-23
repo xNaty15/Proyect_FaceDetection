@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Monitoreo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18sp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitoreo"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textColor="#f21c20"
+            />
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/monitoreo"
+            android:scaleType="centerCrop" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

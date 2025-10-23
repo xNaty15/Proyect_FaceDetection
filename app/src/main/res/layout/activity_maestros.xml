@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/fondo"
+    tools:context=".Maestros">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18sp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maestros"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textColor="#f21c20"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/maestro"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/btnEstadistica"
+            android:text="Estadistica"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/btnAlumnos"
+
+            android:text="Alumnos"/>
+</LinearLayout>
+
+</RelativeLayout>

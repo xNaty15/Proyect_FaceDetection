@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".Login.Registro">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/galery"
+            android:scaleType="centerCrop" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUsuario"
+            android:hint="Usuario"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:padding="18dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtClave"
+            android:hint="Clave"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:padding="18dp"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="#6a5bcd"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Ya tiene cuenta? Iniciar Sesion"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/TextIniciarSesion"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
