@@ -98,7 +98,7 @@ public class Login extends AppCompatActivity {
         }
     }
 
-    // Resultado del permiso
+    // Listo, te gusta como esta?
 
 
 

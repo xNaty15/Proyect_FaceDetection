@@ -13,7 +13,7 @@
 
     <LinearLayout
         android:layout_width="350dp"
-        android:layout_height="500dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
 
@@ -59,15 +59,46 @@
             android:padding="18dp"
             android:textColor="@color/white"
             />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtClase"
+            android:hint="Clase"
+            android:inputType="text"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:padding="18dp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecciona un Rol"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <Spinner
+
+            android:id="@+id/spinner_roles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+            android:backgroundTint="@color/purple"
+        android:background="@android:drawable/btn_dropdown"
+            android:entries="@array/roles_array"
+        />
 
         <Button
             android:id="@+id/btnRegistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrar"
-            android:textSize="20sp"
-            android:textColor="@color/white"
             android:background="#6a5bcd"
+            android:text="Registrar"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             />
 
         <TextView
